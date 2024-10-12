@@ -52,7 +52,7 @@ public class BinaryTreeDiameter {
     
     public int diameter(TreeNode root) {
         calculateHeight(root);
-        return maxDiameter;
+        return maxDiameter + 1;
     }
     
     // Helper function to calculate the height of the tree and update maxDiameter
@@ -183,7 +183,7 @@ Let's dry run the given code for finding the diameter of a binary tree. Consider
       - `return max(2, 1) + 1 = 3`
 
 11. **End of Execution:**
-    - `diameter()` returns `maxDiameter`, which is `3`.
+    - `diameter()` returns `maxDiameter + 1`, which is `3 + 1 = 4`.
 
 ### Diameter Calculation:
 
