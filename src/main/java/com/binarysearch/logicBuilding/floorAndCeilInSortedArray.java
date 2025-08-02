@@ -67,4 +67,23 @@ public class floorAndCeilInSortedArray {
             System.out.println("Array: " + java.util.Arrays.toString(testArrays[i]) + ", Target: " + targets[i] + ", Floor: " + result[0] + ", Ceil: " + result[1]);
         }
     }
+
+    // Expected output:
+//    Array: [], Target: 1, Floor: -1, Ceil: -1
+//    Array: [5], Target: 4, Floor: -1, Ceil: 5
+//    Array: [5], Target: 5, Floor: 5, Ceil: 5
+//    Array: [1, 2, 2, 2, 3, 4, 5], Target: 2, Floor: 2, Ceil: 2
+//    Array: [1, 3, 5, 7, 9], Target: 6, Floor: 5, Ceil: 7
+//    Array: [10, 20, 30, 40], Target: 5, Floor: -1, Ceil: 10
+//    Array: [-10, -5, 0, 5], Target: -20, Floor: -1, Ceil: -10
+//    Array: [2, 2, 2, 2], Target: 2, Floor: 2, Ceil: 2
+//    Array: [1, 2, 3, 4, 5], Target: 0, Floor: -1, Ceil: 1
+//    Array: [1, 2, 3, 4, 5], Target: 10, Floor: 5, Ceil: -1
+//    Array: [1, 2, 3, 4, 5], Target: 3, Floor: 3, Ceil: 3
+//    Array: [1, 2, 3, 4, 5], Target: 0, Floor: -1, Ceil: 1
+//    Array: [1, 2, 3, 4, 5], Target: 6, Floor: 5, Ceil: -1
+//    Array: [-5, -3, -1, 0, 2, 4, 6], Target: -4, Floor: -5, Ceil: -3
+//    Array: [-5, -3, -1, 0, 2, 4, 6], Target: 3, Floor: 2, Ceil: 4
+//    Array: [-5, -3, -1, 0, 2, 4, 6], Target: 0, Floor: 0, Ceil: 0
+//    Array: [-2147483648, -1000, 0, 1000, 2147483647], Target: 100, Floor: 0, Ceil: 1000
 }
