@@ -20,6 +20,7 @@ public class searchInsertPosition {
     }
 
     public static void main(String[] args){
+        //this is same as lowerBound, there is no difference
         searchInsertPosition sip = new searchInsertPosition();
         int[] nums = {-1,3,5,6,9,10,10};
         int target = 7;
